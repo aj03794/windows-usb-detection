@@ -1,6 +1,7 @@
 C:\Users\Adam\Desktop\UsbDetection\UsbDetection\bin\Debug\UsbDetection.exe.config
 C:\Users\Adam\Desktop\UsbDetection\UsbDetection\bin\Debug\UsbDetection.exe
 C:\Users\Adam\Desktop\UsbDetection\UsbDetection\bin\Debug\UsbDetection.pdb
+C:\Users\Adam\Desktop\UsbDetection\UsbDetection\obj\Debug\UsbDetection.csprojAssemblyReference.cache
 C:\Users\Adam\Desktop\UsbDetection\UsbDetection\obj\Debug\UsbDetection.csproj.CoreCompileInputs.cache
 C:\Users\Adam\Desktop\UsbDetection\UsbDetection\obj\Debug\UsbDetection.exe
 C:\Users\Adam\Desktop\UsbDetection\UsbDetection\obj\Debug\UsbDetection.pdb

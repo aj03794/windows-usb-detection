@@ -12,6 +12,15 @@ namespace UsbDetection
     {
         static void Main()
         {
+
+            ManagementObjectSearcher managementObjectSearcher = new ManagementObjectSearcher("Select * From Win32_USBHub");
+            ManagementObjectCollection managementObjectSearcherList = managementObjectSearcher.Get();
+
+            foreach (ManagementObject managementObject in managementObjectSearcherList)
+            {
+                Console.WriteLine(managementObject["Name"]);
+            }
+
             WqlEventQuery insertQuery = new WqlEventQuery("SELECT * FROM __InstanceCreationEvent WITHIN 2 WHERE TargetInstance ISA 'Win32_USBHub'");
             ManagementEventWatcher insertWatcher = new ManagementEventWatcher(insertQuery);
             insertWatcher.EventArrived += new EventArrivedEventHandler(DeviceInsertedEvent);
